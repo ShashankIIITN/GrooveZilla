@@ -1,0 +1,19 @@
+.btn{
+    padding: .7rem;
+    border-radius: .5rem;
+    background-color: #00E4CB;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    &:hover{
+        cursor: pointer;
+    }
+
+    svg{
+        font-size: 1rem;
+    }
+
+}

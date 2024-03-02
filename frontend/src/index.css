@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  font-family: inter;
+}
+body{
+ margin: 0%;
+ padding: 0%;
+ background-color:#0A0A0A;
+}
+#root{
+ overflow: hidden;
+ height: 100vh;
+ width: 100%;
+ display: flex;
+}
+
+.hline{
+  /* border: 2px solid grey; */
+  border: 1px solid #252727;
+  color: grey;
+  width: 80%;
+  margin: auto;
+}

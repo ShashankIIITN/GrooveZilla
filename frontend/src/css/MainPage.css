@@ -1,0 +1,33 @@
+.mainpage {
+	height: 100%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* .blurback{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    filter: blur(100px)  ;
+    background-image: url("../playlist/cover-art/2.jpg");
+    
+}  */
+
+.main_upper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: auto;
+}
+
+.main_lower {
+	width: 100%;
+	height: 50%;
+}

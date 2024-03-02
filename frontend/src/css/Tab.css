@@ -1,0 +1,52 @@
+.tab-menu {
+    width: 100%;
+  }
+
+
+  .tab-menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .tab-menu-list li {
+    color: rgb(180, 178, 178);
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all .1s ease-out;
+
+
+  }
+  
+  .tab-menu-list li:hover {
+    border-left:none ;
+  }
+  
+  .tab-menu-list li.active {
+    color: rgb(255, 254, 254);  
+    border-bottom: 2px solid #00E4CB ;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    color: white;
+  }
+
+  .QueueList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+    justify-content: start;
+    padding-left: 0px;
+
+    li{
+      border: 1px solid rgba(131, 132, 132, 0.378);
+      padding: 1px;
+      padding-left: 10px;
+      font-style: italic;
+      line-height: 2rem;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }

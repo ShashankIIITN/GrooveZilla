@@ -1,0 +1,24 @@
+.rightpanel{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #0F0F0F;
+}
+
+.right_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .profMask{
+        
+    }
+}
+
+.profImage{
+    width:2rem ;
+    height: 2rem;
+    border-radius: 100%;
+}
