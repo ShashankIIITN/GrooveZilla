@@ -59,7 +59,7 @@ const AudioPlayer = () => {
           coverArtSrc={currentTrackMetadata?.coverArtSrc}
         />
         <div className='flex flex-col items-center'>
-          <span className="text-2xl drop-shadow-lg">{currentTrackMetadata?.title}</span>
+          <span className="text-2xl drop-shadow-lg text-white">{currentTrackMetadata?.title}</span>
           <span className="text-base drop-shadow-lg text-grey">{currentTrackMetadata?.artist}</span>
           <ProgressBar
             rightLabel={formatTime(currentTrackDuration)}
